@@ -499,12 +499,12 @@ nav .active span {
 	float:left;
 	width:100%;
 	position:relative;
-	padding:280px 50px 250px;
+	padding:180px 50px 250px;
 }
 .page-title p {
 	display:table;
 	max-width:600px;
-	margin-top:30px;
+	margin-top:15px;
 	color:#fff;
 }
 .page-title h2 {
