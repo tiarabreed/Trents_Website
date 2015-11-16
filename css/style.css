@@ -498,6 +498,7 @@ nav .active span {
 .page-title {
 	float:left;
 	width:100%;
+    height: 100%;
 	position:relative;
 	padding:180px 50px 250px;
 }
@@ -517,7 +518,7 @@ nav .active span {
 	margin:0 auto;
 	color:#fff;
 }
-
+7\
 .page-title h2 span {
 	padding-bottom:2px;
 }
