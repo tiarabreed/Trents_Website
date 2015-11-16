@@ -502,6 +502,7 @@ nav .active span {
 	padding:180px 50px 250px;
 }
 .page-title p {
+    
 	display:table;
 	max-width:600px;
 	margin-top:15px;
@@ -516,16 +517,7 @@ nav .active span {
 	margin:0 auto;
 	color:#fff;
 }
-.page-title h2::before {
-	position: absolute;
-	top:-42%;
-	left:  -10%;
-	width:80%;
-	height:150%;
-	z-index:-1;
-	content: '';
-	background:rgba(49,49,49,0.3);
-}
+
 .page-title h2 span {
 	padding-bottom:2px;
 }
@@ -542,16 +534,7 @@ nav .active span {
 	text-align:left;
 	position:relative;
 }
-#home::before {
-	position: absolute;
-	top:-22%;
-	left:  -10%;
-	width:30%;
-	height:70%;
-	z-index:-1;
-	content: '';
-	background:rgba(49,49,49,0.3);
-}
+
 #home h2 {
 	margin-top:70px;
 	font-size:64px;
@@ -924,42 +907,7 @@ footer{
  	font-family: Raleway, Open Sans, Arial, sans-serif;
 	padding-bottom:6px;
 }
-/*------ facts -------------------------------------------------*/
-.facts  li h6 {
-	font-size:14px;
-}
-.facts  li h5 {
-	font-size:18px;
-	padding-top:22px;
-}
-.num {
-	font-size:44px;
-	font-family: Raleway, Open Sans, Arial, sans-serif;
-}
-#facts:before {
-	content:'';
-	position:absolute;
-	top:0;
-	left:0;
-	width:65%;
-	height:100%;
-	background:#eee;
-}
-#facts:after {
-	content:'';
-	position:absolute;
-	top:50%;
-	left:65%;
-	margin-left:-20px;
-	margin-top:-20px;
-	width:40px;
-	height:40px;
-	background:#fff;
-	-webkit-transform: rotate(45deg); 
-	-moz-transform: rotate(45deg); 
-	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-}
+
 /*------ resume -------------------------------------------------*/
 #resume {
 	padding:0;
